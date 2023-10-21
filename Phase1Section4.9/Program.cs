@@ -11,6 +11,7 @@ namespace Phase1Section4._9
         static void Main(string[] args)
         {
             runApp();
+            Console.ReadLine();
         }
 
         public static void runApp()
@@ -35,7 +36,7 @@ namespace Phase1Section4._9
             Console.WriteLine("Popped " + node.Data);
 
             Console.WriteLine(stack.listContents());
-            Console.ReadLine();
+            
         }
         
     }
